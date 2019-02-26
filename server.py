@@ -2,15 +2,11 @@ import socket
 import time
 import sys
 
-
-
-
 host = "127.0.0.1"
 port = 7000
 
 message_count = 0
 bytes_count = 0
-
 
 type_socket = sys.argv[1]
 mechanism = sys.argv[2]
@@ -77,12 +73,10 @@ elif type_socket == "TCP" and mechanism == "stop-and-wait":
         conn.send(b"ready")
     conn.close()
 
-
 end = time.time()
 print("Protocol:", type_socket)
 print("Time:", end - start)
 print("Block count:", message_count)
 print("Bytes count:", bytes_count)
-
 
 print("Server closed")

@@ -21,7 +21,7 @@ if type_socket == "UDP" and mechanism == "streaming":
     start = time.time()
     while True:
 
-        message = f.read(65535)
+        message = f.read(65000)
         s.sendto(message, (host, port))
 
         message_count = message_count + 1
@@ -98,3 +98,4 @@ print("Message sent")
 s.close()
 
 #  python3.6 client.py "/home/ilinca/Downloads/ubuntu-18.04.2-desktop-amd64.iso"
+#  python 3.6 client.py "/home/ilinca/PycharmProjects/file-500.txt"
