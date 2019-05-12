@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "dependencies": {
+    "types-registry": "^0.1.434"
+  },
+  "devDependencies": {
+    "@types/node": "^11.11.6"
+  }
+}

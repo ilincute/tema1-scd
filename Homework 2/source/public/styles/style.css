@@ -1,0 +1,71 @@
+* {
+    color:  #413c43;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e6e5e1;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-container {
+    background-image: linear-gradient(to right, #ac49e2, #4d4694);
+    width: 315px;
+    height: 550px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.left-side {
+    background: #f3f4f6;
+    width: 305px;
+    height: 539px;
+    align-items: right;
+    margin-left: 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.input-task {
+    color: #413c43;
+}
+
+.button {
+    color: #413c43;
+}
+
+.tasks {
+    color: #413c43;
+}
+/* .task-container {
+    color: #413c43;
+} */
+
+.task-details {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.material-icons.task-icon {
+    color: black;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.task-details .task-timetable {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.add-event-section {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 24px;  
+}
+
